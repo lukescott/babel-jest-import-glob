@@ -1,0 +1,27 @@
+{
+  "name": "babel-jest-import-glob",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint *.js --fix",
+    "test": "./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lukescott/babel-jest-import-glob.git"
+  },
+  "author": "Luke Scott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukescott/babel-jest-import-glob/issues"
+  },
+  "homepage": "https://github.com/lukescott/babel-jest-import-glob#readme",
+  "dependencies": {
+    "babel-jest": "^20.0.3",
+    "glob": "^7.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "jest": "^20.0.3"
+  }
+}
